@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Oder App</string>
+    <string name="user">User Name</string>
+    <string name="password">Password</string>
+    <string name="menu">Menu</string>
+    <string name="pay">Pay</string>
+    <string name="account">Account</string>
+    <string name="item">Item</string>
+    <string name="information">Information Of Item</string>
+    <string name="cost">Cost</string>
+    <string name="total">Total:</string>
+    <string name="title_activity_oder_main">OderFood</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_cart">cart</string>
+</resources>

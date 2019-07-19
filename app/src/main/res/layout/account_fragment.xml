@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/ic_account" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:text="@string/user"
+        android:textSize="@dimen/_20sdp" />
+
+    <RelativeLayout
+        android:id="@+id/rlMyAccount"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/ivAvatar"
+        android:layout_marginLeft="@dimen/_20sdp">
+
+
+        <ImageView
+            android:id="@+id/ivMyAccount"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_account" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivMyAccount"
+            android:gravity="center"
+            android:text="My Account"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/_15sdp"
+            tools:ignore="RtlCompat" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPayment"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/rlMyAccount"
+        android:layout_marginLeft="@dimen/_20sdp">
+
+
+        <ImageView
+            android:id="@+id/ivPayment"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_payment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivPayment"
+            android:gravity="center"
+            android:text="Payment"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/_15sdp"
+            tools:ignore="RtlCompat" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSetting"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/rlPayment"
+        android:layout_marginLeft="@dimen/_20sdp">
+
+
+        <ImageView
+            android:id="@+id/ivSetting"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_settings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivSetting"
+            android:gravity="center"
+            android:text="Setting"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/_15sdp"
+            tools:ignore="RtlCompat" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlLogOut"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/rlSetting"
+        android:layout_marginLeft="@dimen/_20sdp">
+
+
+        <ImageView
+            android:id="@+id/ivlogout"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_logout" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivlogout"
+            android:gravity="center"
+            android:text="Log Out"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/_15sdp"
+            tools:ignore="RtlCompat" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
